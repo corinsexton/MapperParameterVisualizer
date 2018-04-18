@@ -1,5 +1,5 @@
 # MapperParameterVisualizer
-Executing `rshinyApp.R` begins the Mapper Parameter Visualizer app. This a general description of the pipeline I followed:
+This app allows researchers to evaluate the effect of command line parameter changes on Bowtie 2 and BWA-MEM alignments. Executing `rshinyApp.R` begins the Mapper Parameter Visualizer app. This a general description of the pipeline used to generate data:
  1. Create the alignments using the scripts in `bowtie2` and `bwamem` directories
  2. Execute scripts in `analysis_scripts`
  3. Run `rshinyApp.R` to visualize data
